@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'crudNet'`, () => {
+  it(`should have as title 'AngularNet'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('crudNet');
+    expect(app.title).toEqual('AngularNet');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('crudNet app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('AngularNet app is running!');
   });
 });
