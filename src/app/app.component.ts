@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+//import { faCoffee } from '@fortawesome/fontawesome-svg-core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularNet';
+  //faConfig=faCoffee;
+  
 }
